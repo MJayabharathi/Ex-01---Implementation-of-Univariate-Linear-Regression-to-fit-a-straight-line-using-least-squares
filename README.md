@@ -1,4 +1,4 @@
-## Ex-01-Implementation-of-Univariate-Linear-Regression-to-fit-a-straight-line-using-least-squares
+# Implementation-of-Univariate-Linear-Regression-to-fit-a-straight-line-using-least-squares
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
 
@@ -13,15 +13,19 @@ To implement univariate Linear Regression to fit a straight line using least squ
 <img width="231" alt="image" src="https://user-images.githubusercontent.com/93026020/192078527-b3b5ee3e-992f-46c4-865b-3b7ce4ac54ad.png">
 4. Compute the y -intercept of the line by using the formula:
 <img width="148" alt="image" src="https://user-images.githubusercontent.com/93026020/192078545-79d70b90-7e9d-4b85-9f8b-9d7548a4c5a4.png">
-5. Use the slope m and the y -intercept to form the equation of the line.
+5. Use the slope m and the y -intercept to form the equation of the line.<br>
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
+```
+Program to implement univariate Linear Regression to fit a 
+straight line using least squares.
+Developed by: Jayabharathi M 
+RegisterNumber:  212220220017
+```
 ```python3
 import numpy as np
 import matplotlib.pyplot as plt
-```
-```python3
 x=np.array(eval(input()))
 y=np.array(eval(input()))
 x_mean=np.mean(x)
@@ -42,7 +46,8 @@ plt.show()
 ```
 
 ## Output:
-![Screenshot 2023-03-21 09 10 43](https://user-images.githubusercontent.com/128306587/226512520-15c995cf-adc5-4331-a677-32e169d4c28b.png)
+
+![ML_Exp1](https://user-images.githubusercontent.com/89703145/226668717-34986720-33de-4011-9689-1138138f97e4.png)
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
